@@ -1,0 +1,65 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+*.sqlite3
+test_pillcheck.db
+pillcheck.db
+
+# Uploads & User Media (preserve folder structure with .gitkeep)
+backend/uploads/*
+!backend/uploads/.gitkeep
+!backend/uploads/scans/.gitkeep
+!backend/uploads/references/.gitkeep
+!backend/uploads/reports/.gitkeep
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm
+.eslintcache
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# OS & Editor
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
